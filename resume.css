@@ -1,0 +1,259 @@
+#cv-template{
+    display: none;
+}
+.myimg{
+    border: 1px  solid saddlebrown;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+.background{
+    background-color: rgb(254, 253, 253);
+}
+a{
+    text-decoration: none;
+    color: azure;
+
+}
+#cv-form{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+}
+h1{
+    font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"ROND" 0;
+    font-weight: 800;
+    box-shadow: 2px 11px 10px;
+    
+}
+h3{
+    font-weight: 700;
+    
+}
+label{
+    font-weight: 600;
+}
+
+
+@keyframes anime {
+    0%{background-color: rgb(124, 20, 222);   left: 0; top: 0; }  
+    25%{background-color: rgb(68, 215, 10);   left: 200px; top: 0; }     
+    50%{background-color: rgb(208, 20, 20);   left: 200px; top: 200px; }     
+    100%{background-color: rgb(13, 126, 167);   left: 0; top: 200px; }        
+}
+#head{
+    animation-name: anime;
+    animation-duration: 3;
+    background-color: #000603;
+}
+•⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Doto', sans-serif;
+    background-color: #9fd1c0;
+    color: #333;
+    padding: 20px 0;
+}
+
+/* Header styles */
+#head {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1a73e8;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Container for the form */
+#cv-form {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Section titles */
+h3 {
+    font-size: 1.8rem;
+    color: #1a73e8;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Form Inputs */
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    box-shadow: none;
+    padding: 12px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.2);
+}
+
+/* Custom file input */
+input[type="file"] {
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 12px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button.btn.background {
+    background-color: #28a745;
+    color: white;
+}
+
+button.btn.background:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Work Experience & Academic Qualification Sections */
+#weT, #aqT {
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Cards for Objective, Experience, Academic */
+.card {
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #1a73e8, #34bfa3);
+    color: white;
+}
+
+.card-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 18px;
+    background: #1a73e8;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 0 0 12px 12px;
+}
+
+.card-body ul {
+    list-style-type: none;
+}
+
+.card-body ul li {
+    margin-bottom: 15px;
+}
+
+.card-body p {
+    font-size: 1.1rem;
+}
+
+/* Resume Template */
+#cv-template {
+    display: none;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#cv-template .background {
+      background: linear-gradient(to right, #1a73e8, #34bfa3);
+    color: rgb(217, 227, 195);
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+#cv-template .img-fuid {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    margin-top: 20px;
+}
+
+#nameT1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+#contactT, #addressT {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#fbT, #instaT, #linkedT {
+    color: #e7eef6;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#fbT:hover, #instaT:hover, #linkedT:hover {
+    text-decoration: underline;
+}
+
+/* Print button */
+#cv-template .container.mt-3 {
+    margin-top: 30px;
+}
+
+button.btn.background {
+    background-color: #ff5722;
+    color: white;
+    font-size: 1.2rem;
+}
+
+button.btn.background:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+
+h3{
+    color: #000603;
+    box-shadow: 2px 3px 5px;
+}
